@@ -205,7 +205,7 @@
 	<sstream>
 	"SDL/SDL_ttf.h"
 
-1325814793 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_ttf.h
+1325789594 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
@@ -220,7 +220,7 @@
 	"SDL/SDL_ttf.h"
 	"SDL/SDL_mixer.h"
 
-1325810940 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mixer.h
+1325785740 c:\program files (x86)\codeblocks\sdl-1.2.15\include\sdl\sdl_mixer.h
 	"SDL_types.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -262,11 +262,22 @@
 	"SDL/SDL_ttf.h"
 	"SDL/SDL_mixer.h"
 
-1514047927 source:c:\users\ahmed\desktop\ahmad_updated\snakes_cards\main.cpp
+1514064688 source:c:\users\oday ibn bari\desktop\snakes_cards\main.cpp
 	<cstdlib>
 	<iostream>
 	<SDL/SDL.h>
 	<string>
+	<ctime>
+	<sstream>
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+
+1514118353 source:c:\users\oday ibn bari\desktop\snakes_cards_sofi\main.cpp
+	<cstdlib>
+	<iostream>
+	<SDL/SDL.h>
+	<string>
+	<fstream>
 	<ctime>
 	<sstream>
 	"SDL/SDL_ttf.h"
