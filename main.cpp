@@ -7,7 +7,6 @@
 #include<sstream>
 #include "SDL/SDL_ttf.h"
 #include"SDL/SDL_mixer.h"
-#include "ReportAssert.h"
 using namespace std;
 SDL_Surface *load_image(string ) ;
 void apply_surface( int , int , SDL_Surface* , SDL_Surface* );
