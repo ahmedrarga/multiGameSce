@@ -7,6 +7,7 @@
 #include<sstream>
 #include "SDL/SDL_ttf.h"
 #include"SDL/SDL_mixer.h"
+#include "ReportAssert.h"
 using namespace std;
 SDL_Surface *load_image(string ) ;
 void apply_surface( int , int , SDL_Surface* , SDL_Surface* );
@@ -555,6 +556,10 @@ bool movebal(int num,int& waze,int numofball)
     int* yy=&y1;
     string toshow="0";
     stringstream ss;
+    if (waze+num>100)
+    {
+        num=100-waze;
+    }
     font = TTF_OpenFont( "lazy.ttf", 40 );
     if(numofball==2)
       {
